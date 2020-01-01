@@ -16,9 +16,13 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class TestController {
 
 
-    @RequestMapping("test")
-    @ResponseBody
+    @RequestMapping("/test")
     public String test(){
+        return "test";
+    }
+
+    @RequestMapping("/aaa/bbb")
+    public String test1(){
         return "test";
     }
 }

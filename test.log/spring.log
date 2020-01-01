@@ -32,3 +32,414 @@
 2019-12-21 21:26:49 INFO  c.z.c.HttpInterceptor:26 - after HttpInterceptor
 2019-12-21 22:17:04 INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:984 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@15d9bc04: startup date [Sat Dec 21 21:26:21 CST 2019]; root of context hierarchy
 2019-12-21 22:17:04 INFO  o.s.j.e.a.AnnotationMBeanExporter:449 - Unregistering JMX-exposed beans on shutdown
+2019-12-24 22:31:34 ERROR o.s.b.l.LoggingApplicationListener:365 - Cannot set level: debug, stdout,file for 'null'
+2019-12-24 22:31:34 INFO  c.z.c.ConcurrencyApplication:48 - Starting ConcurrencyApplication on zyan-precision-7920-tower with PID 32832 (/home/zyan/desktop/concurrency/target/classes started by root in /home/zyan/desktop/concurrency)
+2019-12-24 22:31:34 INFO  c.z.c.ConcurrencyApplication:593 - No active profile set, falling back to default profiles: default
+2019-12-24 22:31:34 INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6385cb26: startup date [Tue Dec 24 22:31:34 CST 2019]; root of context hierarchy
+2019-12-24 22:31:35 INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8080 (http)
+2019-12-24 22:31:35 INFO  o.a.c.c.StandardService:179 - Starting service [Tomcat]
+2019-12-24 22:31:35 INFO  o.a.c.c.StandardEngine:179 - Starting Servlet Engine: Apache Tomcat/8.5.23
+2019-12-24 22:31:35 INFO  o.a.c.c.C.[.[.[/]:179 - Initializing Spring embedded WebApplicationContext
+2019-12-24 22:31:35 INFO  o.s.w.c.ContextLoader:276 - Root WebApplicationContext: initialization completed in 956 ms
+2019-12-24 22:31:35 INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-12-24 22:31:35 INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-12-24 22:31:35 INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-12-24 22:31:35 INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2019-12-24 22:31:35 INFO  o.s.b.w.s.FilterRegistrationBean:271 - Mapping filter: 'httpFilter' to urls: [/threadLocal/*]
+2019-12-24 22:31:35 INFO  o.s.b.w.s.ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2019-12-24 22:31:35 INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6385cb26: startup date [Tue Dec 24 22:31:34 CST 2019]; root of context hierarchy
+2019-12-24 22:31:35 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/aaa/bbb]}" onto public java.lang.String com.zyan.concurrency.controller.TestController.test1()
+2019-12-24 22:31:35 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/test]}" onto public java.lang.String com.zyan.concurrency.controller.TestController.test()
+2019-12-24 22:31:35 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/threadLocal/test]}" onto public java.lang.Long com.zyan.concurrency.example.threadLocal.ThreadLocalController.test()
+2019-12-24 22:31:35 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-12-24 22:31:35 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-12-24 22:31:35 INFO  o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-24 22:31:35 INFO  o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-24 22:31:35 INFO  o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-24 22:31:35 INFO  o.s.j.e.a.AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2019-12-24 22:31:35 INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 8080 (http)
+2019-12-24 22:31:35 INFO  c.z.c.ConcurrencyApplication:57 - Started ConcurrencyApplication in 1.982 seconds (JVM running for 2.436)
+2019-12-24 22:31:58 INFO  o.a.c.c.C.[.[.[/]:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-12-24 22:31:58 INFO  o.s.w.s.DispatcherServlet:489 - FrameworkServlet 'dispatcherServlet': initialization started
+2019-12-24 22:31:58 INFO  o.s.w.s.DispatcherServlet:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 11 ms
+2019-12-24 22:31:58 INFO  c.z.c.HttpInterceptor:19 - preHandle
+2019-12-24 22:31:58 INFO  c.z.c.HttpInterceptor:26 - after HttpInterceptor
+2019-12-24 22:32:07 INFO  c.z.c.HttpInterceptor:19 - preHandle
+2019-12-24 22:32:07 INFO  c.z.c.HttpInterceptor:26 - after HttpInterceptor
+2019-12-24 22:32:57 INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:984 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6385cb26: startup date [Tue Dec 24 22:31:34 CST 2019]; root of context hierarchy
+2019-12-24 22:32:57 INFO  o.s.j.e.a.AnnotationMBeanExporter:449 - Unregistering JMX-exposed beans on shutdown
+2019-12-24 22:33:00 ERROR o.s.b.l.LoggingApplicationListener:365 - Cannot set level: debug, stdout,file for 'null'
+2019-12-24 22:33:01 INFO  c.z.c.ConcurrencyApplication:48 - Starting ConcurrencyApplication on zyan-precision-7920-tower with PID 33325 (/home/zyan/desktop/concurrency/target/classes started by root in /home/zyan/desktop/concurrency)
+2019-12-24 22:33:01 INFO  c.z.c.ConcurrencyApplication:593 - No active profile set, falling back to default profiles: default
+2019-12-24 22:33:01 INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6385cb26: startup date [Tue Dec 24 22:33:01 CST 2019]; root of context hierarchy
+2019-12-24 22:33:02 INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8080 (http)
+2019-12-24 22:33:02 INFO  o.a.c.c.StandardService:179 - Starting service [Tomcat]
+2019-12-24 22:33:02 INFO  o.a.c.c.StandardEngine:179 - Starting Servlet Engine: Apache Tomcat/8.5.23
+2019-12-24 22:33:02 INFO  o.a.c.c.C.[.[.[/]:179 - Initializing Spring embedded WebApplicationContext
+2019-12-24 22:33:02 INFO  o.s.w.c.ContextLoader:276 - Root WebApplicationContext: initialization completed in 1009 ms
+2019-12-24 22:33:02 INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-12-24 22:33:02 INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-12-24 22:33:02 INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-12-24 22:33:02 INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2019-12-24 22:33:02 INFO  o.s.b.w.s.FilterRegistrationBean:271 - Mapping filter: 'httpFilter' to urls: [/threadLocal/*]
+2019-12-24 22:33:02 INFO  o.s.b.w.s.ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2019-12-24 22:33:02 INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6385cb26: startup date [Tue Dec 24 22:33:01 CST 2019]; root of context hierarchy
+2019-12-24 22:33:02 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/aaa/bbb]}" onto public java.lang.String com.zyan.concurrency.controller.TestController.test1()
+2019-12-24 22:33:02 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/test]}" onto public java.lang.String com.zyan.concurrency.controller.TestController.test()
+2019-12-24 22:33:02 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/threadLocal/test]}" onto public java.lang.Long com.zyan.concurrency.example.threadLocal.ThreadLocalController.test()
+2019-12-24 22:33:02 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-12-24 22:33:02 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-12-24 22:33:02 INFO  o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-24 22:33:02 INFO  o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-24 22:33:02 INFO  o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-24 22:33:02 INFO  o.s.j.e.a.AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2019-12-24 22:33:02 INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 8080 (http)
+2019-12-24 22:33:02 INFO  c.z.c.ConcurrencyApplication:57 - Started ConcurrencyApplication in 2.066 seconds (JVM running for 2.53)
+2019-12-24 22:33:11 INFO  o.a.c.c.C.[.[.[/]:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-12-24 22:33:11 INFO  o.s.w.s.DispatcherServlet:489 - FrameworkServlet 'dispatcherServlet': initialization started
+2019-12-24 22:33:11 INFO  o.s.w.s.DispatcherServlet:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 22 ms
+2019-12-24 22:33:11 INFO  c.z.c.HttpInterceptor:19 - preHandle
+2019-12-24 22:33:11 INFO  c.z.c.HttpInterceptor:26 - after HttpInterceptor
+2019-12-24 22:33:11 INFO  c.z.c.HttpInterceptor:19 - preHandle
+2019-12-24 22:33:11 INFO  c.z.c.HttpInterceptor:26 - after HttpInterceptor
+2019-12-24 22:33:18 INFO  c.z.c.HttpInterceptor:19 - preHandle
+2019-12-24 22:33:18 INFO  c.z.c.HttpInterceptor:26 - after HttpInterceptor
+2019-12-24 22:33:18 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet]:181 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Circular view path [test]: would dispatch back to the current handler URL [/test] again. Check your ViewResolver setup! (Hint: This may be the result of an unspecified view, due to default view name generation.)] with root cause
+javax.servlet.ServletException: Circular view path [test]: would dispatch back to the current handler URL [/test] again. Check your ViewResolver setup! (Hint: This may be the result of an unspecified view, due to default view name generation.)
+	at org.springframework.web.servlet.view.InternalResourceView.prepareForRendering(InternalResourceView.java:205)
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:145)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:303)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1286)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1041)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:984)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2019-12-24 22:33:18 INFO  c.z.c.HttpInterceptor:19 - preHandle
+2019-12-24 22:33:18 INFO  c.z.c.HttpInterceptor:26 - after HttpInterceptor
+2019-12-24 22:34:06 INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:984 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6385cb26: startup date [Tue Dec 24 22:33:01 CST 2019]; root of context hierarchy
+2019-12-24 22:34:06 INFO  o.s.j.e.a.AnnotationMBeanExporter:449 - Unregistering JMX-exposed beans on shutdown
+2019-12-24 22:34:10 ERROR o.s.b.l.LoggingApplicationListener:365 - Cannot set level: debug, stdout,file for 'null'
+2019-12-24 22:34:10 INFO  c.z.c.ConcurrencyApplication:48 - Starting ConcurrencyApplication on zyan-precision-7920-tower with PID 33744 (/home/zyan/desktop/concurrency/target/classes started by root in /home/zyan/desktop/concurrency)
+2019-12-24 22:34:10 INFO  c.z.c.ConcurrencyApplication:593 - No active profile set, falling back to default profiles: default
+2019-12-24 22:34:10 INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6385cb26: startup date [Tue Dec 24 22:34:10 CST 2019]; root of context hierarchy
+2019-12-24 22:34:11 INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8080 (http)
+2019-12-24 22:34:11 INFO  o.a.c.c.StandardService:179 - Starting service [Tomcat]
+2019-12-24 22:34:11 INFO  o.a.c.c.StandardEngine:179 - Starting Servlet Engine: Apache Tomcat/8.5.23
+2019-12-24 22:34:11 INFO  o.a.c.c.C.[.[.[/]:179 - Initializing Spring embedded WebApplicationContext
+2019-12-24 22:34:11 INFO  o.s.w.c.ContextLoader:276 - Root WebApplicationContext: initialization completed in 976 ms
+2019-12-24 22:34:11 INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-12-24 22:34:11 INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-12-24 22:34:11 INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-12-24 22:34:11 INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2019-12-24 22:34:11 INFO  o.s.b.w.s.FilterRegistrationBean:271 - Mapping filter: 'httpFilter' to urls: [/threadLocal/*]
+2019-12-24 22:34:11 INFO  o.s.b.w.s.ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2019-12-24 22:34:11 INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6385cb26: startup date [Tue Dec 24 22:34:10 CST 2019]; root of context hierarchy
+2019-12-24 22:34:11 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/aaa/bbb]}" onto public java.lang.String com.zyan.concurrency.controller.TestController.test1()
+2019-12-24 22:34:11 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/test]}" onto public java.lang.String com.zyan.concurrency.controller.TestController.test()
+2019-12-24 22:34:11 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/threadLocal/test]}" onto public java.lang.Long com.zyan.concurrency.example.threadLocal.ThreadLocalController.test()
+2019-12-24 22:34:11 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-12-24 22:34:11 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-12-24 22:34:11 INFO  o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-24 22:34:11 INFO  o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-24 22:34:11 INFO  o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-24 22:34:11 INFO  o.s.j.e.a.AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2019-12-24 22:34:11 INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 8080 (http)
+2019-12-24 22:34:11 INFO  c.z.c.ConcurrencyApplication:57 - Started ConcurrencyApplication in 2.005 seconds (JVM running for 2.46)
+2019-12-24 22:40:18 INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:984 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6385cb26: startup date [Tue Dec 24 22:34:10 CST 2019]; root of context hierarchy
+2019-12-24 22:40:18 INFO  o.s.j.e.a.AnnotationMBeanExporter:449 - Unregistering JMX-exposed beans on shutdown
+2019-12-24 22:40:24 ERROR o.s.b.l.LoggingApplicationListener:365 - Cannot set level: debug, stdout,file for 'null'
+2019-12-24 22:40:24 INFO  c.z.c.ConcurrencyApplication:48 - Starting ConcurrencyApplication on zyan-precision-7920-tower with PID 36843 (/home/zyan/desktop/concurrency/target/classes started by root in /home/zyan/desktop/concurrency)
+2019-12-24 22:40:24 INFO  c.z.c.ConcurrencyApplication:593 - No active profile set, falling back to default profiles: default
+2019-12-24 22:40:25 INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@23a5fd2: startup date [Tue Dec 24 22:40:25 CST 2019]; root of context hierarchy
+2019-12-24 22:40:25 INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8080 (http)
+2019-12-24 22:40:25 INFO  o.a.c.c.StandardService:179 - Starting service [Tomcat]
+2019-12-24 22:40:25 INFO  o.a.c.c.StandardEngine:179 - Starting Servlet Engine: Apache Tomcat/8.5.23
+2019-12-24 22:40:26 INFO  o.a.c.c.C.[.[.[/]:179 - Initializing Spring embedded WebApplicationContext
+2019-12-24 22:40:26 INFO  o.s.w.c.ContextLoader:276 - Root WebApplicationContext: initialization completed in 996 ms
+2019-12-24 22:40:26 INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-12-24 22:40:26 INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-12-24 22:40:26 INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-12-24 22:40:26 INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2019-12-24 22:40:26 INFO  o.s.b.w.s.FilterRegistrationBean:271 - Mapping filter: 'httpFilter' to urls: [/threadLocal/*]
+2019-12-24 22:40:26 INFO  o.s.b.w.s.ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2019-12-24 22:40:26 INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@23a5fd2: startup date [Tue Dec 24 22:40:25 CST 2019]; root of context hierarchy
+2019-12-24 22:40:26 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/aaa/bbb]}" onto public java.lang.String com.zyan.concurrency.controller.TestController.test1()
+2019-12-24 22:40:26 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/test]}" onto public java.lang.String com.zyan.concurrency.controller.TestController.test()
+2019-12-24 22:40:26 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/threadLocal/test]}" onto public java.lang.Long com.zyan.concurrency.example.threadLocal.ThreadLocalController.test()
+2019-12-24 22:40:26 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-12-24 22:40:26 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-12-24 22:40:26 INFO  o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-24 22:40:26 INFO  o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-24 22:40:26 INFO  o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-24 22:40:26 INFO  o.s.j.e.a.AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2019-12-24 22:40:26 INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 8080 (http)
+2019-12-24 22:40:26 INFO  c.z.c.ConcurrencyApplication:57 - Started ConcurrencyApplication in 2.271 seconds (JVM running for 2.709)
+2019-12-24 22:40:35 INFO  o.a.c.c.C.[.[.[/]:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-12-24 22:40:35 INFO  o.s.w.s.DispatcherServlet:489 - FrameworkServlet 'dispatcherServlet': initialization started
+2019-12-24 22:40:35 INFO  o.s.w.s.DispatcherServlet:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 13 ms
+2019-12-24 22:40:35 INFO  c.z.c.HttpInterceptor:19 - preHandle
+2019-12-24 22:40:35 ERROR o.t.t.ErrorHandler:117 - [THYMELEAF][http-nio-8080-exec-1] Fatal error during parsing
+org.xml.sax.SAXParseException: 元素类型 "meta" 必须由匹配的结束标记 "</meta>" 终止。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:441)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1436)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1748)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2957)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:649)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(SAXParserImpl.java:333)
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.doParse(AbstractNonValidatingSAXTemplateParser.java:209)
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.parseTemplateUsingPool(AbstractNonValidatingSAXTemplateParser.java:134)
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.parseTemplate(AbstractNonValidatingSAXTemplateParser.java:116)
+	at org.thymeleaf.TemplateRepository.getTemplate(TemplateRepository.java:278)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1104)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1060)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1011)
+	at org.thymeleaf.spring4.view.ThymeleafView.renderFragment(ThymeleafView.java:335)
+	at org.thymeleaf.spring4.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1286)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1041)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:984)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2019-12-24 22:40:35 ERROR o.t.TemplateEngine:117 - [THYMELEAF][http-nio-8080-exec-1] Exception processing template "test": Exception parsing document: template="test", line 6 - column 3
+2019-12-24 22:40:35 INFO  c.z.c.HttpInterceptor:26 - after HttpInterceptor
+2019-12-24 22:40:35 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet]:181 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Exception parsing document: template="test", line 6 - column 3] with root cause
+org.xml.sax.SAXParseException: 元素类型 "meta" 必须由匹配的结束标记 "</meta>" 终止。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:441)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1436)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1748)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2957)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:649)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(SAXParserImpl.java:333)
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.doParse(AbstractNonValidatingSAXTemplateParser.java:209)
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.parseTemplateUsingPool(AbstractNonValidatingSAXTemplateParser.java:134)
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.parseTemplate(AbstractNonValidatingSAXTemplateParser.java:116)
+	at org.thymeleaf.TemplateRepository.getTemplate(TemplateRepository.java:278)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1104)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1060)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1011)
+	at org.thymeleaf.spring4.view.ThymeleafView.renderFragment(ThymeleafView.java:335)
+	at org.thymeleaf.spring4.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1286)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1041)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:984)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2019-12-24 22:40:35 INFO  c.z.c.HttpInterceptor:19 - preHandle
+2019-12-24 22:40:35 INFO  c.z.c.HttpInterceptor:26 - after HttpInterceptor
+2019-12-24 22:41:23 INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:984 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@23a5fd2: startup date [Tue Dec 24 22:40:25 CST 2019]; root of context hierarchy
+2019-12-24 22:41:23 INFO  o.s.j.e.a.AnnotationMBeanExporter:449 - Unregistering JMX-exposed beans on shutdown
+2019-12-24 22:41:25 ERROR o.s.b.l.LoggingApplicationListener:365 - Cannot set level: debug, stdout,file for 'null'
+2019-12-24 22:41:25 INFO  c.z.c.ConcurrencyApplication:48 - Starting ConcurrencyApplication on zyan-precision-7920-tower with PID 37252 (/home/zyan/desktop/concurrency/target/classes started by root in /home/zyan/desktop/concurrency)
+2019-12-24 22:41:25 INFO  c.z.c.ConcurrencyApplication:593 - No active profile set, falling back to default profiles: default
+2019-12-24 22:41:25 INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@23a5fd2: startup date [Tue Dec 24 22:41:25 CST 2019]; root of context hierarchy
+2019-12-24 22:41:26 INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8080 (http)
+2019-12-24 22:41:26 INFO  o.a.c.c.StandardService:179 - Starting service [Tomcat]
+2019-12-24 22:41:26 INFO  o.a.c.c.StandardEngine:179 - Starting Servlet Engine: Apache Tomcat/8.5.23
+2019-12-24 22:41:26 INFO  o.a.c.c.C.[.[.[/]:179 - Initializing Spring embedded WebApplicationContext
+2019-12-24 22:41:26 INFO  o.s.w.c.ContextLoader:276 - Root WebApplicationContext: initialization completed in 935 ms
+2019-12-24 22:41:26 INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-12-24 22:41:26 INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-12-24 22:41:26 INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-12-24 22:41:26 INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2019-12-24 22:41:26 INFO  o.s.b.w.s.FilterRegistrationBean:271 - Mapping filter: 'httpFilter' to urls: [/threadLocal/*]
+2019-12-24 22:41:26 INFO  o.s.b.w.s.ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2019-12-24 22:41:27 INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@23a5fd2: startup date [Tue Dec 24 22:41:25 CST 2019]; root of context hierarchy
+2019-12-24 22:41:27 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/aaa/bbb]}" onto public java.lang.String com.zyan.concurrency.controller.TestController.test1()
+2019-12-24 22:41:27 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/test]}" onto public java.lang.String com.zyan.concurrency.controller.TestController.test()
+2019-12-24 22:41:27 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/threadLocal/test]}" onto public java.lang.Long com.zyan.concurrency.example.threadLocal.ThreadLocalController.test()
+2019-12-24 22:41:27 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-12-24 22:41:27 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-12-24 22:41:27 INFO  o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-24 22:41:27 INFO  o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-24 22:41:27 INFO  o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-24 22:41:27 INFO  o.s.j.e.a.AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2019-12-24 22:41:27 INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 8080 (http)
+2019-12-24 22:41:27 INFO  c.z.c.ConcurrencyApplication:57 - Started ConcurrencyApplication in 2.326 seconds (JVM running for 2.756)
+2019-12-24 22:41:40 INFO  o.a.c.c.C.[.[.[/]:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-12-24 22:41:40 INFO  o.s.w.s.DispatcherServlet:489 - FrameworkServlet 'dispatcherServlet': initialization started
+2019-12-24 22:41:40 INFO  o.s.w.s.DispatcherServlet:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 12 ms
+2019-12-24 22:41:40 INFO  c.z.c.HttpInterceptor:19 - preHandle
+2019-12-24 22:41:40 INFO  c.z.c.HttpInterceptor:26 - after HttpInterceptor
+2019-12-24 22:41:48 INFO  c.z.c.HttpInterceptor:19 - preHandle
+2019-12-24 22:41:48 INFO  c.z.c.HttpInterceptor:26 - after HttpInterceptor
+2019-12-24 22:54:27 INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:984 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@23a5fd2: startup date [Tue Dec 24 22:41:25 CST 2019]; root of context hierarchy
+2019-12-24 22:54:27 INFO  o.s.j.e.a.AnnotationMBeanExporter:449 - Unregistering JMX-exposed beans on shutdown
+2019-12-25 10:00:45 ERROR o.s.b.l.LoggingApplicationListener:365 - Cannot set level: debug, stdout,file for 'null'
+2019-12-25 10:00:45 INFO  c.z.c.ConcurrencyApplication:48 - Starting ConcurrencyApplication on zyan-precision-7920-tower with PID 26673 (/home/zyan/desktop/concurrency/target/classes started by root in /home/zyan/desktop/concurrency)
+2019-12-25 10:00:45 INFO  c.z.c.ConcurrencyApplication:593 - No active profile set, falling back to default profiles: default
+2019-12-25 10:00:45 INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@23a5fd2: startup date [Wed Dec 25 10:00:45 CST 2019]; root of context hierarchy
+2019-12-25 10:00:46 INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8080 (http)
+2019-12-25 10:00:46 INFO  o.a.c.c.StandardService:179 - Starting service [Tomcat]
+2019-12-25 10:00:46 INFO  o.a.c.c.StandardEngine:179 - Starting Servlet Engine: Apache Tomcat/8.5.23
+2019-12-25 10:00:46 INFO  o.a.c.c.C.[.[.[/]:179 - Initializing Spring embedded WebApplicationContext
+2019-12-25 10:00:46 INFO  o.s.w.c.ContextLoader:276 - Root WebApplicationContext: initialization completed in 970 ms
+2019-12-25 10:00:46 INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-12-25 10:00:46 INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-12-25 10:00:46 INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-12-25 10:00:46 INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2019-12-25 10:00:46 INFO  o.s.b.w.s.FilterRegistrationBean:271 - Mapping filter: 'httpFilter' to urls: [/threadLocal/*]
+2019-12-25 10:00:46 INFO  o.s.b.w.s.ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2019-12-25 10:00:47 INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@23a5fd2: startup date [Wed Dec 25 10:00:45 CST 2019]; root of context hierarchy
+2019-12-25 10:00:47 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/aaa/bbb]}" onto public java.lang.String com.zyan.concurrency.controller.TestController.test1()
+2019-12-25 10:00:47 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/test]}" onto public java.lang.String com.zyan.concurrency.controller.TestController.test()
+2019-12-25 10:00:47 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/threadLocal/test]}" onto public java.lang.Long com.zyan.concurrency.example.threadLocal.ThreadLocalController.test()
+2019-12-25 10:00:47 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-12-25 10:00:47 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-12-25 10:00:47 INFO  o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-25 10:00:47 INFO  o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-25 10:00:47 INFO  o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-25 10:00:47 INFO  o.s.j.e.a.AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2019-12-25 10:00:47 INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 8080 (http)
+2019-12-25 10:00:47 INFO  c.z.c.ConcurrencyApplication:57 - Started ConcurrencyApplication in 2.193 seconds (JVM running for 2.609)
+2019-12-25 10:00:56 INFO  o.a.c.c.C.[.[.[/]:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-12-25 10:00:56 INFO  o.s.w.s.DispatcherServlet:489 - FrameworkServlet 'dispatcherServlet': initialization started
+2019-12-25 10:00:56 INFO  o.s.w.s.DispatcherServlet:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 11 ms
+2019-12-25 10:00:56 INFO  c.z.c.HttpInterceptor:19 - preHandle
+2019-12-25 10:00:56 INFO  c.z.c.HttpInterceptor:26 - after HttpInterceptor
+2019-12-25 10:01:35 INFO  c.z.c.HttpInterceptor:19 - preHandle
+2019-12-25 10:01:35 INFO  c.z.c.HttpInterceptor:26 - after HttpInterceptor
+2019-12-25 10:01:47 INFO  c.z.c.HttpInterceptor:19 - preHandle
+2019-12-25 10:01:47 INFO  c.z.c.HttpInterceptor:26 - after HttpInterceptor
+2019-12-25 10:03:16 INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:984 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@23a5fd2: startup date [Wed Dec 25 10:00:45 CST 2019]; root of context hierarchy
+2019-12-25 10:03:16 INFO  o.s.j.e.a.AnnotationMBeanExporter:449 - Unregistering JMX-exposed beans on shutdown
