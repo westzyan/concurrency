@@ -19,14 +19,14 @@ public class SingletonExample4 {
     }
 
     // 1。memory = allocate() 分配对象的内存空间
-    // 2。ctornstance（）初始化对象
+    // 2。ctorinstance（）初始化对象
     // 3。instance = memory 设置instance 指向刚才分配的内存
 
     // JVM 和 cpu优化， 发生了指令重排
 
     // 1。memory = allocate() 分配对象的内存空间
-    // 3。instance = memory 设置instance 指向刚才分配的内存
-    // 2。ctornstance（）初始化对象
+    // 2。instance = memory 设置instance 指向刚才分配的内存
+    // 3。ctorinstance（）初始化对象
 
 
     //单例对象
