@@ -51,5 +51,7 @@ public class AtomicExample1 {
         countDownLatch.await();
         executorService.shutdown();
         log.info("count:{}",count.get());
+
+
     }
 }
